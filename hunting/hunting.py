@@ -1,3 +1,7 @@
+        """
+        CREDITS https://github.com/aikaterna/aikaterna-cogs
+        """
+
 import asyncio
 import discord
 import datetime
