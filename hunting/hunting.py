@@ -34,7 +34,9 @@ class Hunting(commands.Cog):
             "officer": ":police_officer: **_HANDS UP OR I SHOOT_**",
             "dog": ":dog: **_Woof!_**", 
             "cat": ":cat: **_Meow!_**", 
-            "fox": ":fox: **_Wrhaa!_**", 
+            "fox": ":fox: **_Wrhaa!_**",
+            "raccoon": ":raccoon: **_Prrr!_**", 
+            "tiger": ":tiger: **_ROAR!_**", 
         }
         self.in_game = []
         self.paused_games = []
