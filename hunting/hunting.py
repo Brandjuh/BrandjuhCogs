@@ -27,7 +27,9 @@ class Hunting(commands.Cog):
             "chicken": ":chicken: **_Bah-gawk!_**",
             "duck": ":duck: **_Quack!_**",
             "officer": ":police_officer: **_HANDS UP OR I SHOOT_**",
-            "dog": ":dog: **_Woof woof!_**", 
+            "dog": ":dog: **_Woof!_**", 
+            "cat": ":cat: **_Meow!_**", 
+            "fox": ":fox: **_Wrhaa!_**", 
         }
         self.in_game = []
         self.paused_games = []
@@ -81,7 +83,7 @@ class Hunting(commands.Cog):
         pound_len = len(str(len(sorted_acc)))
         score_len = 10
         header = "{score:{score_len}}{name:2}\n".format(
-            score="# Birds Shot",
+            score="# Things Shot",
             score_len=score_len + 5,
             name="Name"
             if not str(ctx.author.mobile_status) in ["online", "idle", "dnd"]
@@ -165,7 +167,7 @@ class Hunting(commands.Cog):
                 kill_list.append(f"{animal[1]} {animal[0].capitalize()}")
             else:
                 kill_list.append(f"{animal[1]} {animal[0].capitalize()}s")
-            message = f"{member.name} shot a total of {total} animals ({humanize_list(kill_list)})"
+            message = f"{member.name} shot a total of {total} things ({humanize_list(kill_list)})"
         await ctx.send(bold(message))
 
     @checks.mod_or_permissions(manage_guild=True)
