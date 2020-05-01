@@ -37,6 +37,8 @@ class Hunting(commands.Cog):
             "fox": ":fox: **_Wrhaa!_**",
             "raccoon": ":raccoon: **_Prrr!_**", 
             "tiger": ":tiger: **_ROAR!_**", 
+            "pig": ":pig: **_Oinks!_**",
+            "firefighter": "<:041firefighter:669494166698590208> **_I hose you down!_**",
         }
         self.in_game = []
         self.paused_games = []
