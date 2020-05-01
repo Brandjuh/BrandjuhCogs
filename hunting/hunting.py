@@ -234,11 +234,11 @@ class Hunting(commands.Cog):
             return await ctx.send("`interval_min` needs to be lower than `interval_max`.")
         if interval_min < 0 and interval_max < 0 and bang_timeout < 0:
             return await ctx.send("Please no negative numbers!")
-        if interval_min < 120:
-            interval_min = 120
+        if interval_min < 20:
+            interval_min = 20
             message += "Minimum interval set to minimum of 120s.\n"
-        if interval_max < 240:
-            interval_max = 240
+        if interval_max < 40:
+            interval_max = 40
             message += "Maximum interval set to minimum of 240s.\n"
         if bang_timeout < 10:
             bang_timeout = 10
