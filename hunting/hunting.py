@@ -45,7 +45,7 @@ class Hunting(commands.Cog):
             "superhero": ":superhero: **_S-s-s-uperman!_**",
             "ambulance": ":ambulance: **Wee-Woo!_**",
             "police car": ":police_car: **Wee-Woo!_**",
-            "fire engine": ":fire engine: **Wee-Woo!_**",
+            "fire engine": ":fire_engine: **Wee-Woo!_**",
         }
         self.in_game = []
         self.paused_games = []
