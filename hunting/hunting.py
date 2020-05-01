@@ -42,6 +42,10 @@ class Hunting(commands.Cog):
             "rat": ":rat: **_Squeak!_**",
             "eagle": ":eagle: **_Caw!_**",
             "owl": ":owl: **_Oe-hoe!_**",
+            "superhero": ":superhero: **_S-s-s-uperman!_**",
+            "ambulance": ":ambulance: **Wee-Woo!_**",
+            "police car": ":police_car: **Wee-Woo!_**",
+            "fire engine": ":fire engine: **Wee-Woo!_**",
         }
         self.in_game = []
         self.paused_games = []
