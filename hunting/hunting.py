@@ -1,7 +1,7 @@
-        """
-        DO NOT USE THIS CRAPPY HORRIBLE CHANGED CODE THAT WILL BREAK STUFF.
-        PLEASE USE https://github.com/aikaterna/aikaterna-cogs
-        """
+"""
+DO NOT USE THIS CRAPPY HORRIBLE CHANGED CODE THAT WILL BREAK STUFF.
+PLEASE USE https://github.com/aikaterna/aikaterna-cogs
+"""
 
 import asyncio
 import discord
