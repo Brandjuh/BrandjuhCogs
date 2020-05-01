@@ -237,8 +237,8 @@ class Hunting(commands.Cog):
         if interval_min < 20:
             interval_min = 20
             message += "Minimum interval set to minimum of 120s.\n"
-        if interval_max < 40:
-            interval_max = 40
+        if interval_max < 240:
+            interval_max = 240
             message += "Maximum interval set to minimum of 240s.\n"
         if bang_timeout < 10:
             bang_timeout = 10
