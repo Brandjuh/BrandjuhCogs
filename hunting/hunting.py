@@ -26,7 +26,8 @@ class Hunting(commands.Cog):
             "penguin": ":penguin: **_Noot!_**",
             "chicken": ":chicken: **_Bah-gawk!_**",
             "duck": ":duck: **_Quack!_**",
-            "Officer": ":police_officer: **_HANDS UP OR I SHOOT_**",
+            "officer": ":police_officer: **_HANDS UP OR I SHOOT_**",
+            "dog": ":dog: **_Woof woof!_**", 
         }
         self.in_game = []
         self.paused_games = []
