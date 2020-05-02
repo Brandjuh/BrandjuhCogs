@@ -31,7 +31,7 @@ class Hunting(commands.Cog):
             "penguin": ":penguin: **_Noot!_**",
             "chicken": ":chicken: **_Bah-gawk!_**",
             "duck": ":duck: **_Quack!_**",
-            "corrupt officer": ":police_officer: **_Hands up! You can also pay me 50 bucks._**",
+            "corrupt officer": ":police_officer: **_Pay me 50 bucks or I will arrest you._**",
             "dog": ":dog: **_Woof!_**", 
             "cat": ":cat: **_Meow!_**", 
             "fox": ":fox: **_Wrhaa!_**",
