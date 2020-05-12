@@ -46,6 +46,7 @@ class Hunting(commands.Cog):
             "ambulance": ":ambulance: **_Wee-Woo!_**",
             "police car": ":police_car: **_Wee-Woo!_**",
             "fire engine": ":fire_engine: **_Wee-Woo!_**",
+            "Bee": ":bee: **_Buzzzz!_**",
         }
         self.in_game = []
         self.paused_games = []
