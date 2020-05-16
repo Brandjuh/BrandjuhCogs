@@ -336,7 +336,7 @@ class Hunting(commands.Cog):
                 bang_msg = await self.bot.wait_for("message", check=check, timeout=timeout)
             except asyncio.TimeoutError:
                 self.in_game.remove(channel.id)
-                return await channel.send(f"The {animal} got away!")
+                return await channel.send(f"**The {animal} got away!**")
             author = bang_msg.author
 
         else:
