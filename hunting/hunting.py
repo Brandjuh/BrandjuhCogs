@@ -54,7 +54,7 @@ class Hunting(commands.Cog):
             "wait_for_bang_timeout": 20,
             "channels": [],
             "bang_time": True,
-            "bang_words": True,
+            "bang_words": false,
         }
         default_user = {"author_name": None, "score": {}, "total": 0}
         self.config.register_user(**default_user)
