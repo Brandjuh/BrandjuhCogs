@@ -53,8 +53,8 @@ class Hunting(commands.Cog):
             "hunt_interval_maximum": 3600,
             "wait_for_bang_timeout": 20,
             "channels": [],
-            "bang_time": True,
-            "bang_words": false,
+            "bang_time": False,
+            "bang_words": True,
         }
         default_user = {"author_name": None, "score": {}, "total": 0}
         self.config.register_user(**default_user)
@@ -336,7 +336,7 @@ class Hunting(commands.Cog):
                 bang_msg = await self.bot.wait_for("message", check=check, timeout=timeout)
             except asyncio.TimeoutError:
                 self.in_game.remove(channel.id)
-                return await channel.send(bold)(f"The {animal} got away!")
+                return await channel.send(f"The {animal} got away!")
             author = bang_msg.author
 
         else:
